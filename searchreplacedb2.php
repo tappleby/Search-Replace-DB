@@ -517,6 +517,8 @@ if ( $step >= 5 ) {
 	}
 }
 
+if(defined('SRDB2_SKIP_HTML') && SRDB2_SKIP_HTML)
+    return;
 
 /*
  Send the HTML to the screen.

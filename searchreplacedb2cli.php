@@ -1,4 +1,4 @@
-#!/usr/bin/php -q
+#!/c/xampp/php/php.exe -q
 
 <?php
 
@@ -9,9 +9,8 @@
  * this script currently affects all tables in a db there are @TODOs below...
  */
 
+define('SRDB2_SKIP_HTML', true);
 require_once('searchreplacedb2.php'); // include the proper srdb script
-
-echo "########################### Ignore Above ###############################\n\n";
 
 // source: https://github.com/interconnectit/Search-Replace-DB/blob/master/searchreplacedb2.php
 
