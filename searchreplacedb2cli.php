@@ -1,4 +1,4 @@
-#!/c/xampp/php/php.exe -q
+#!/usr/bin/php -q
 
 <?php
 
